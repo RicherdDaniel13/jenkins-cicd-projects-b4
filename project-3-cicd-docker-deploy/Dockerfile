@@ -2,11 +2,10 @@ FROM node:20-slim
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm ci --omit=dev
-
 COPY . .
+
+RUN npm i
 
 EXPOSE 3003
 
-CMD ["npm", "start"]
+CMD ["npm", "run" , "start"]
