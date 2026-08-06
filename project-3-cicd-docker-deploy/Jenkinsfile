@@ -5,7 +5,7 @@ pipeline {
     PROJECT_DIR = "project-3-cicd-docker-deploy"
     IMAGE_NAME = "richerd13/testrepo"
     IMAGE_TAG = "${BUILD_NUMBER}"
-    CONTAINER_NAME = "richerd13/testrepo"
+    CONTAINER_NAME = "richerd13"
     DOCKER_CREDENTIALS = "dockerhub-credentials"
   }
 
