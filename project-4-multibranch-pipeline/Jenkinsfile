@@ -3,10 +3,9 @@ pipeline {
 
   environment {
     PROJECT_DIR = "project-4-multibranch-pipeline"
-    IMAGE_NAME = "venkatesan004/project-4-multibranch-pipeline"
+    IMAGE_NAME = "richerd13/testrepo2"
     IMAGE_TAG = "${BUILD_NUMBER}"
-    CONTAINER_NAME = "project-4-multibranch-pipeline"
-    EMAIL_TO = "venkatesangunaraj@gmail.com"
+    CONTAINER_NAME = "roject-4-multibranch-pipeline"
     DOCKER_CREDENTIALS = "dockerhub-credentials"
   }
 
